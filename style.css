@@ -5,7 +5,7 @@
 
 /* Shared Style */
 .primary-btn{
-    background-color: rgb(237, 73, 84);
+    background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
     font-size: 15px;
@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 150px;
 }
 .nav-title{
    color: black;
@@ -27,7 +28,7 @@ nav{
 }
 
 .title-colour{
-    color: rgb(237, 73, 84);
+    color: #FD6E0A;
 }
 
 nav > ul {
@@ -38,4 +39,18 @@ nav > ul {
 nav li {
     list-style: none;
     margin-right: 50px;
+}
+
+/* Header Style */
+.header-class{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-image{
+    width: 500px;
 }
