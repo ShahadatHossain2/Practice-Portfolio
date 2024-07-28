@@ -117,7 +117,7 @@ main section{
 }
 
 .skill{
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
@@ -125,4 +125,45 @@ main section{
 
 .skill-description{
     margin-top: 15px;
+}
+
+/* resume section */
+.resume-title{
+    font-size: 30px;
+    color: #474747;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+/* .resume-item{
+    padding: 15px;
+} */
+.resume-item-title{
+    font-size: 30px;
+    color: #474747;
+}
+.resume-item-institute{
+    color: #757575;
+    font-weight: 20px;
+    margin-top: 15px;
+}
+.resume-item-description{
+    color: #757575;
+    font-weight: 15px;
+}
+
+.download-cv{
+    text-align: center;
+    margin: 15px;
+}
+
+.download-button{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+
 }
