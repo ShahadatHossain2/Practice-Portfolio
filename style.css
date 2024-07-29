@@ -167,3 +167,24 @@ main section{
     color: white;
 
 }
+
+/* Footer Style */
+footer{
+    display: flex;
+    /* gap: 100px; */
+    background-color: #FFF8F3;
+    padding: 100px 130px;
+}
+
+.social-links{
+    display: flex;
+}
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin: 24px 0;
+    padding: 10px 15px;
+    color: #757575;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
