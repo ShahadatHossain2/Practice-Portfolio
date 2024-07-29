@@ -43,11 +43,12 @@ nav li {
 }
 
 /* Header Style */
-.header-class{
+header{
     background-color: #FFF8F3;
-    background-image: url(../Practice-Portfolio/images/header_bg.png);
+    background-image: url(../Practice-Portfolio/images/header_bg.png), url(../Practice-Portfolio/images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-size: 100%, 82px;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -178,6 +179,9 @@ footer{
 
 .social-links{
     display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
 }
 .contact input[type="text"],.contact input[type="email"], textarea{
     display: block;
@@ -187,4 +191,8 @@ footer{
     border: none;
     border-radius: 5px;
     width: 100%;
+}
+.footer-title, .footer-description{
+    text-align: center;
+    margin-right: 50px;
 }
